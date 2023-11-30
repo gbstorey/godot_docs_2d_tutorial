@@ -48,7 +48,7 @@ animations = [{
 radius = 39.0
 height = 84.0
 
-[node name="Mob" type="RigidBody2D"]
+[node name="Mob" type="RigidBody2D" groups=["mobs"]]
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_ilc62")
@@ -58,7 +58,7 @@ metadata/_edit_group_ = true
 scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_mltrg")
 animation = &"fly"
-frame_progress = 0.334663
+frame_progress = 0.725407
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = 1.5708
